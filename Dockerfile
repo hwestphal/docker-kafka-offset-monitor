@@ -2,7 +2,7 @@ FROM dockerfile/java:oracle-java7
 MAINTAINER Harald Westphal <h.westphal@gmx.de>
 
 RUN \
-  wget -q -O /app.jar https://github.com/quantifind/KafkaOffsetMonitor/releases/download/v0.2.0/KafkaOffsetMonitor-assembly-0.2.0.jar
+  wget -q -O /app.jar https://github.com/quantifind/KafkaOffsetMonitor/releases/download/v0.2.1/KafkaOffsetMonitor-assembly-0.2.1.jar
 
 EXPOSE 8080
 
